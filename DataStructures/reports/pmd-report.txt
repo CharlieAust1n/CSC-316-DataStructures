@@ -1,0 +1,304 @@
+src/edu/ncsu/csc316/dsa/data/Identifiable.java:15:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getId': the method is declared in an interface type
+src/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraph.java:80:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/graph/GraphTraversalUtil.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'edu.ncsu.csc316.dsa.queue.AbstractQueue'
+src/edu/ncsu/csc316/dsa/graph/ShortestPathUtil.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'edu.ncsu.csc316.dsa.priority_queue.PriorityQueue'
+src/edu/ncsu/csc316/dsa/list/ArrayBasedList.java:49:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/list/SinglyLinkedList.java:191:	SimplifyBooleanReturns:	SimplifyBooleanReturns: This if statement can be replaced by `return !{condition} || {elseBranch};`
+src/edu/ncsu/csc316/dsa/list/positional/PositionalLinkedList.java:108:	SimplifyBooleanReturns:	SimplifyBooleanReturns: This if statement can be replaced by `return {condition};`
+src/edu/ncsu/csc316/dsa/list/positional/PositionalLinkedList.java:232:	SimplifyBooleanReturns:	SimplifyBooleanReturns: This if statement can be replaced by `return !{condition} || {elseBranch};`
+src/edu/ncsu/csc316/dsa/map/UnorderedLinkedMap.java:36:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/map/hashing/AbstractHashMap.java:88:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/map/hashing/LinearProbingHashMap.java:88:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/map/search_tree/BinarySearchTreeMap.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'edu.ncsu.csc316.dsa.map.Map.Entry'
+src/edu/ncsu/csc316/dsa/map/search_tree/BinarySearchTreeMap.java:176:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/map/search_tree/BinarySearchTreeMap.java:427:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/queue/ArrayBasedQueue.java:52:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/queue/ArrayBasedQueue.java:81:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/CountingSorter.java:36:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/RadixSorter.java:31:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/RadixSorter.java:31:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/RadixSorter.java:39:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/RadixSorter.java:41:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/RadixSorter.java:42:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/RadixSorter.java:42:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/edu/ncsu/csc316/dsa/sorter/Sorter.java:15:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'sort': the method is declared in an interface type
+test/edu/ncsu/csc316/dsa/data/StudentIDComparatorTest.java:54:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertEquals
+test/edu/ncsu/csc316/dsa/data/StudentTest.java:97:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertEquals
+test/edu/ncsu/csc316/dsa/data/StudentTest.java:98:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertEquals
+test/edu/ncsu/csc316/dsa/data/StudentTest.java:107:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertNotEquals
+test/edu/ncsu/csc316/dsa/data/StudentTest.java:108:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertEquals
+test/edu/ncsu/csc316/dsa/data/StudentTest.java:109:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertNotEquals
+test/edu/ncsu/csc316/dsa/data/StudentTest.java:110:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertNotEquals
+test/edu/ncsu/csc316/dsa/data/StudentTest.java:111:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertNotEquals
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:557:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:558:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:559:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:560:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:561:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:562:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:563:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:564:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:565:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:566:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:592:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:613:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:614:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:615:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:616:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:617:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:618:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:619:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:620:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:621:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:622:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:647:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:685:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:704:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:722:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:740:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:758:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:795:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:813:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:828:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:840:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:849:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:894:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:913:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:931:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:949:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:967:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1009:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1017:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1027:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1039:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1053:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1126:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1127:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1128:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1129:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1130:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1131:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1132:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1133:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1134:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1135:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1172:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyListGraphTest.java:1207:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'v6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:556:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:557:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:558:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:559:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:560:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:561:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:562:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:563:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:564:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:565:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:591:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:612:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:613:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:614:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:615:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:616:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:617:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:618:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:619:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:620:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:621:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:646:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:684:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:703:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:721:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:739:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:757:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:794:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:812:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:827:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:839:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:848:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:893:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:912:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:930:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:948:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:966:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1008:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1016:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1026:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1038:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1052:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1125:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1126:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1127:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1128:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1129:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1130:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1131:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1132:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1133:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1134:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1171:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMapGraphTest.java:1206:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'v6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:557:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:558:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:559:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:560:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:561:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:562:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:563:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:564:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:565:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:566:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:592:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:613:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:614:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:615:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:616:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:617:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:618:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:619:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:620:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:621:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:622:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:647:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:685:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:704:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:722:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:740:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:758:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:795:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:813:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:828:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:840:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:849:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:894:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:913:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:931:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:949:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:967:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1009:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1017:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1027:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1039:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1053:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1126:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1127:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1128:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1129:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1130:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1131:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1132:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1133:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1134:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1135:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1172:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/AdjacencyMatrixGraphTest.java:1207:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'v6'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:557:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:558:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:559:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:560:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:561:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:562:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:563:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:564:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:565:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:566:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:592:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:613:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:614:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:615:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:616:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:617:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:618:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:619:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:620:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:621:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:622:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:647:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:685:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:704:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:722:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:740:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:758:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:795:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:813:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:828:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:840:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:849:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:894:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:913:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:931:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:949:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:967:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1009:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1017:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1027:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1039:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1053:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1126:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1127:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1128:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1129:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1130:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1131:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e6'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1132:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e7'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1133:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e8'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1134:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e9'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1135:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e10'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1172:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e11'.
+test/edu/ncsu/csc316/dsa/graph/EdgeListGraphTest.java:1207:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'v6'.
+test/edu/ncsu/csc316/dsa/graph/GraphTraversalUtilTest.java:26:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'directedGraph'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:62:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'undirectedGraph'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:86:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'highway2'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:87:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'highway3'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:88:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'highway4'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:97:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e1'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:98:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e2'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:99:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e3'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:100:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e4'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:101:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'e5'.
+test/edu/ncsu/csc316/dsa/graph/ShortestPathUtilTest.java:118:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:136:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:137:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:138:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:139:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:140:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:142:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:194:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:195:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:198:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:199:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:202:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:203:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:206:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:207:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:210:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SearchTableMapTest.java:211:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:135:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:136:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:137:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:138:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:139:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:141:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:193:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:194:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:197:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:198:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:201:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:202:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:205:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:206:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:209:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/SkipListMapTest.java:210:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:166:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:167:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:170:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:171:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:174:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:175:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:178:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:179:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:182:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/UnorderedLinkedMapTest.java:183:	UselessParentheses:	UselessParentheses: Useless parentheses.
+test/edu/ncsu/csc316/dsa/map/search_tree/SplayTreeMapTest.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'edu.ncsu.csc316.dsa.map.search_tree.*'
+test/edu/ncsu/csc316/dsa/priority_queue/HeapPriorityQueueTest.java:38:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertEquals
+test/edu/ncsu/csc316/dsa/priority_queue/HeapPriorityQueueTest.java:63:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertEquals
